@@ -1,0 +1,47 @@
+.cool {
+    font-family: 'PTSans-Regular', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+img {
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.card-wrap {
+    margin: 0 auto;
+    width: 96%;
+}
+
+.mat-card-header {
+    justify-content: center;
+    font-family: 'PTSans-Bold', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 72px; */
+    font-size: 50px;
+    line-height: 93px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFE3D8;
+}
+
+.example-card {
+    width: 300px;
+    background: #3FCDBC;
+    border-radius: 50px;
+    text-align: center;
+    margin: 2rem 10rem;
+    display: inline-block;
+}
+
+.mat-card>:first-child, .mat-card-content>:first-child {
+    margin-top: 0;
+}

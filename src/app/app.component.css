@@ -1,0 +1,157 @@
+.image-1 {
+    /* position: absolute;
+    left: 0; */
+    flex: 1;
+}
+
+.prakash-sharma {
+    position: absolute;
+    height: 47px;
+    top: 2rem;
+    font-family: 'PTSans-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.line {
+    position: absolute;
+    width: 938px;
+    height: 0px;
+    /* left: 448px; */
+    right: 35px;
+    top: 7rem;
+    border: .7px solid #0039A9
+}
+
+.mobile {
+    position: absolute;
+    top: 16rem;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;  */
+    font-family: 'PTSans-Regular', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.def {
+    position: absolute;
+    width: 61%;
+    top: 21rem;
+    font-family: 'PTSans-Regular', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 93px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.cool {
+    position: absolute;
+    top: 47rem;
+    font-family: 'PTSans-Regular', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.mt-15 {
+    margin: 20rem 3rem 2rem;
+}
+
+.item-wrap {
+    /* width: 65% */
+}
+
+.set-height {
+    min-height: 50rem;
+}
+
+.heading {
+    /* position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -31.91%; */
+    font-family: 'PTSans-Regular', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFE3D8;
+}
+
+.sub-header {
+    font-family: 'PTSans-Regular', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #FFE3D8;
+    margin-top: 3rem;
+}
+
+.list-style {
+    font-family: 'PTSans-Regular', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style: none;
+    /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+li::before {
+    content: "•";
+    /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #FFE3D8;
+    /* Or a color you prefer */
+}
+
+.padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.arrow-down {
+    position: absolute;
+    top: 50rem;
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+}

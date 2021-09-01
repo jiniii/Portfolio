@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-family: "PTSans-Regular";
+    src: local("PTSans"), url(./assets/fonts/PT_Sans/PTSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "PTSans-Italic";
+    src: local("PTSans"), url(./assets/fonts/PT_Sans/PTSans-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "PTSans-Bold";
+    src: local("PTSans"), url(./assets/fonts/PT_Sans/PTSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "PTSans-BoldItalic";
+    src: local("PTSans"), url(./assets/fonts/PT_Sans/PTSans-BoldItalic.ttf) format("truetype");
+}
+
+body {
+    background-color: #0A043C;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
