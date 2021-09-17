@@ -16,7 +16,7 @@ export class AppComponent {
   projects = [
     {
       id: 1,
-      imageUrl: "assets/images/image1.svg",
+      imageUrl: "assets/images/image-1.png",
       header: "Wallet Framework",
       aboutList: [
         'This is a framework to develop the banking wallet application. This is similar to PhonePe application. ',
@@ -56,15 +56,14 @@ export class AppComponent {
     {
       id: 3,
       imageUrl: "assets/images/image-3.svg",
-      header: "Wallet Framework",
+      header: "Smaket POS",
       aboutList: [
-        'This is a framework to develop the banking wallet application. This is similar to PhonePe application. ',
-        'This application targets banking customers and makes them eligible to load money, deposit, widthdrawal, all kinds of payments etc. ',
-        'An end-to-end solution for FDH bank including client and server side.',
-        'We are developing the both native Android and iOS application, the team size was 18, 15 developers, 2 tester, 1 designer. So I got the experience of large size team. '
+        'This is an inventory management application, where you can manage yours wholesale and retail business.',
+        'It provides Real Time Invoicing, Auto Inventory Syncing & Reduce your hardware cost. It also support printing your invoices. ',
+        'It’s a single point application to solve the business probelms for any wholesaler and retailer.',
       ],
-      technicalDetails: "We used the latest android technology stack such as android view model, live data, kedwig networking library, android ui, ktor, code generator, logging library, RPC framework etc.",
-      challenges: "The security of transactions, the code generator and server-based UI was was the major challenges faced by team."
+      technicalDetails: "This application is using MVP model with viewmodel. The custom network sdk was written manually, and barcode scanner etc.",
+      challenges: "I worked as android developer and added the feature such as supplier management, purchase items etcs."
     },
   ]
 }

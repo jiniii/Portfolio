@@ -13,7 +13,8 @@
 img {
     margin: auto;
     display: flex;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .card-wrap {
@@ -45,4 +46,18 @@ img {
 
 .mat-card>:first-child, .mat-card-content>:first-child {
     margin-top: 0;
+}
+
+.description {
+    width: 434px;
+    height: 124px;
+    left: 225px;
+    top: 5206px;
+    font-family: 'PTSans-Bold', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
 }

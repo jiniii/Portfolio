@@ -13,9 +13,14 @@
 img {
     margin: auto;
     display: flex;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;}
+
+img.set-height {
+    height: 25rem;
+    margin: auto;
 }
 
-.image{
-    
+.image {
+    margin: auto;
 }

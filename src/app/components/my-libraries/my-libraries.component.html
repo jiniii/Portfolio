@@ -1,12 +1,15 @@
 <div class="cool">My Awesome Libraries</div>
 <img src="assets/images/arrow-down.svg" alt="arrow-down">
 <div class="card-wrap">
-    <mat-card class="example-card" *ngFor="let item of cardData">
-        <mat-card-header>
-            <mat-card-title>{{item.cardTitle}}</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-            <p>{{item.cardContent}}</p>
-        </mat-card-content>
-    </mat-card>
+    <div *ngFor="let item of cardData">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <mat-card-title>{{item.cardTitle}}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{item.cardContent}}</p>
+            </mat-card-content>
+        </mat-card>
+        <div class="description">{{item.cardDescription}}</div>
+    </div>
 </div>
